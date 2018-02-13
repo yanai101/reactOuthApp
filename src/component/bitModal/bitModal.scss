@@ -1,0 +1,30 @@
+.BitMoadal{
+    position: relative;
+    h2{
+        display: flex;
+    }
+    section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .button{
+        margin: 0 15px;
+    }
+    .cols div{
+        padding: 5px 10px;
+    }
+    .cancelBtn{
+        width: 36px;
+        height: 26px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bitSelect{
+        width: 150px;
+    }
+}
+.Bitlebel{
+    margin-right: 15px;
+}

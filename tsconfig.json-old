@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build/",
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "my-tsconfig.json"
+      }
+    }
+  }
+}

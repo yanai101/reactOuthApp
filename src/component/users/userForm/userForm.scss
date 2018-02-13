@@ -1,0 +1,36 @@
+.userFormSection{
+    width: 75vw;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.userForm{
+    display: grid;
+    grid-template: repeat(5,1fr)/repeat(3,1fr);
+    grid-gap: 5px;
+}
+.submitForm{
+    grid-column-start: 3;
+    grid-row-start: 5;
+    justify-self: end;
+    align-self: center;
+}
+.submitForm Button{
+    margin: 0 5px;
+}
+.userName{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    min-height: 60px;
+}
+.userPass{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    min-height: 60px;
+}
+.userType{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    min-height: 60px;
+}

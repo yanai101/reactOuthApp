@@ -1,0 +1,38 @@
+.loginPage {
+  color: red;
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  grid-template-areas: "header header header" "left main rigth" "footer footer footer";
+  justify-items: center;
+  align-items: center;
+  .loginForm {
+    grid-area: main;
+    background:#fff;
+    padding: 10px 10px 0 10px;
+    border-radius: 3px;
+    width: 250px;
+  }
+
+  .formControl {
+    display: block;
+  }
+  .Alert{
+    color: red;
+    font-style: italic;
+  }
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.loginFormForgot {
+  float: right;
+}
+
+.loginFormButton {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
